@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link href="./style.css" rel="stylesheet" />
+    <script src="./calc.js"></script>
+</head>
+
+<body>
+    <!-- all container -->
+    <div id="all-container">
+        <!-- title -->
+        <div id="title">Calculadora</div>
+        <!-- Screen -->
+        <div id="screen"></div>
+        <div class="parent-buttons">
+            <!-- numeros -->
+            <div class="child-buttons" id="numbers">
+                <div class="row">
+                    <div class="boton" onclick="operate(1)">1</div>
+                    <div class="boton" onclick="operate(2)">2</div>
+                    <div class="boton" onclick="operate(3)">3</div>
+                </div>
+                <div class="row">
+                    <div class="boton" onclick="operate(4)">4</div>
+                    <div class="boton" onclick="operate(5)">5</div>
+                    <div class="boton" onclick="operate(6)">6</div>
+                </div>
+                <div class="row">
+                    <div class="boton" onclick="operate(7)">7</div>
+                    <div class="boton" onclick="operate(8)">8</div>
+                    <div class="boton" onclick="operate(9)">9</div>
+                </div>
+                <div class="row">
+                    <div class="boton" onclick="operate('(')">(</div>
+                    <div class="boton" onclick="operate(0)">0</div>
+                    <div class="boton" onclick="operate(')')">)</div>
+                </div>
+            </div>
+            <!-- operandos -->
+            <div class="child-buttons" id="operands">
+                <div class="row">
+                    <div class="boton" onclick="operate('+')">+</div>
+                    <div class="boton" onclick="operate('-')">-</div>
+                </div>
+                <div class="row">
+                    <div class="boton" onclick="operate('x')">x</div>
+                    <div class="boton" onclick="operate('/')">/</div>
+                </div>
+                <div class="row">
+                    <div class="boton" onclick="solve()">=</div>
+                    <div class="boton" onclick="reset()">C</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

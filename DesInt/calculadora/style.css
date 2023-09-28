@@ -1,0 +1,69 @@
+body{
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#all-container{
+    width: 600px;
+}
+
+#title{    
+    font-size: 50px;
+    color: white;
+}
+
+#screen{
+    text-align: center;
+    background-color: rgb(64, 255, 64);
+    border: solid black 3px;
+    border-radius: 15px;
+    padding: 20px;
+    color: white;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    margin-bottom: 20px;
+}
+
+.row{
+    display: table-row;
+}
+
+.parent-buttons{
+    padding: 20px;
+    border: solid black 3px;
+    border-radius: 15px;
+    background-color: orange;
+    display: flex;
+}
+
+.child-buttons{
+    background-color: rgb(255, 196, 87);
+    border: white solid 2px;
+    border-radius: 10px;
+    display: table;
+}
+
+#numbers{
+    width: 60%;
+}
+
+#operands{
+    margin-left: 50px;
+    width: 30%;
+}
+#operands, .boton{
+    background-color: orange;
+    display: table-cell;
+    padding: 15px 10px 5px 10px;
+    border: solid white 1px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.boton:hover{
+    color: white;
+    background-color: darkorange;
+    transition: 0.25s;
+}
