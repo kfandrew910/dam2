@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Alumno.java&apos; to &apos;streams/src/main/java/dam2.streams&apos;&#x0A;- Original project: &apos;pruebalombok&apos;&#x0A;- Destination element: &apos;streams/src/main/java/dam2.streams&apos;&#x0A;- Original element: &apos;dam2.pruebalombok.Alumno.java&apos;" description="Copy compilation unit" destination="=streams/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;dam2.streams" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;dam2.pruebalombok{Alumno.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1695750922153" units="1" version="1.0"/>
+</session>

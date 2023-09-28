@@ -1,0 +1,89 @@
+body{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: greenyellow;
+}
+
+#title{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+/*Esto se quita rapidito*/
+    background-image: 
+    linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet, red); 
+  -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+  animation: rainbow-animation 35s linear infinite;
+}
+
+@keyframes rainbow-animation {
+    to {
+        background-position: 1500vh;
+    }
+}
+/*Hasta aqui*/
+
+#all-container {
+    width: 450px;
+}
+
+.float-container {
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: orange;
+}
+
+.float-child {
+    display: inline-flex;
+    width: auto;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(255, 115, 0);
+    border-radius: 10px;
+    border: 2px solid #fff;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.199);
+}
+
+#numbers{
+    width: 50%;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+#operations{
+    width: 40%;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+#screen{
+    background-color: rgb(34, 180, 34);
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    border: solid black 3px;
+    margin-bottom: 10px;
+    font-style: oblique bold;
+    font-size: 25px;
+    overflow: scroll;
+}
+
+input[type="button"]{
+    text-align: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.199);
+    margin: 2px 2px;
+    font-size: 25px;
+    font-weight: bold;
+    transition: 0.25S ease-in;
+}
+
+input[type="button"]:hover{
+    background-color: darkorange;
+    transition: 0.25s ease-out;
+    color: white;
+}

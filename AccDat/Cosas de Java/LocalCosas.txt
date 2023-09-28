@@ -1,0 +1,81 @@
+//LOCALDATE
+
+public static LocalDate leerFecha() {
+		// TODO Auto-generated method stub
+		boolean exito=false;
+		DateTimeFormatter df = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+
+		LocalDate fecha = null;
+
+		do {
+
+			try {
+				fecha = LocalDate.parse(Teclado.leerString("Dime fecha(dd/MM/yyyy)"), df);
+			}
+			catch(DateTimeParseException e){
+				Pantalla.escribirString("\nFecha no valida\n");
+				exito = false;
+			}
+
+			if(fecha != null)
+				exito = true;
+		}while(!exito);
+
+		return fecha;
+	}
+
+//LOCALTIME
+
+public static LocalTime leerHora() {
+		// TODO Auto-generated method stub
+		boolean exito=false;
+		DateTimeFormatter tf = DateTimeFormatter.ofPattern("HH:mm:ss");
+
+		LocalTime hora = null;
+
+		do {
+
+			try {
+				hora = LocalTime.parse(Teclado.leerString("Dime hora(hh:mm:ss)"), tf);
+			}
+			catch(DateTimeParseException e){
+				Pantalla.escribirString("\nHora no valida\n");
+				exito = false;
+			}
+
+			if(hora != null)
+				exito = true;
+		}while(!exito);
+
+		Pantalla.escribirString("\nHora introducida: " + hora);
+
+		return hora;
+	}
+
+//LOCALDATETIME
+
+public static LocalDateTime leerFechaHora() {
+		// TODO Auto-generated method stub
+		boolean exito=false;
+		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd-MM-yyyy/HH:mm");
+
+		LocalDateTime fechaHora = null;
+
+		do {
+
+			try {
+				fechaHora = LocalDateTime.parse(Teclado.leerString("Dime hora(dd-MM-yyyy/HH:mm)"),dtf);
+			}
+			catch(DateTimeParseException e){
+				Pantalla.escribirString("\nFecha/Hora no valida\n");
+				exito = false;
+			}
+
+			if(fechaHora != null)
+				exito = true;
+		}while(!exito);
+
+		Pantalla.escribirString("\nHora introducida: " + fechaHora);
+
+		return fechaHora;
+	}

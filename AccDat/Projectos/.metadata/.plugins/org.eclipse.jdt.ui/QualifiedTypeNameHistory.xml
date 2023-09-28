@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.time.format.DateTimeParseException"/>
+    <fullyQualifiedTypeName name="java.util.TreeMap"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.TreeSet"/>
+    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
+    <fullyQualifiedTypeName name="Alumno.ComparadorPorNota"/>
+    <fullyQualifiedTypeName name="Alumno.Escribidor"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="Ejercicio1.PredicadoEsPerecedero"/>
+    <fullyQualifiedTypeName name="Ejercicio1.Producto"/>
+    <fullyQualifiedTypeName name="daw.com.Pantalla"/>
+    <fullyQualifiedTypeName name="optional.AccionMostrarSinDatos"/>
+    <fullyQualifiedTypeName name="optional.CreadorProducto"/>
+    <fullyQualifiedTypeName name="EjercicioEjemplo.Producto"/>
+    <fullyQualifiedTypeName name="optional.SacarReferencia"/>
+    <fullyQualifiedTypeName name="daw.com.Teclado"/>
+    <fullyQualifiedTypeName name="optional.LeerAlumno"/>
+    <fullyQualifiedTypeName name="java.util.Optional"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="lombok.EqualsAndHashCode"/>
+    <fullyQualifiedTypeName name="lombok.EqualsAndHashCode.Include"/>
+    <fullyQualifiedTypeName name="lombok.Setter"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.NonNull"/>
+    <fullyQualifiedTypeName name="lombok.Builder"/>
+    <fullyQualifiedTypeName name="lombok.RequiredArgsConstructor"/>
+    <fullyQualifiedTypeName name="dam2.pruebalombok.Alumno"/>
+    <fullyQualifiedTypeName name="lombok.Singular"/>
+    <fullyQualifiedTypeName name="lombok.ToString"/>
+    <fullyQualifiedTypeName name="lombok.experimental.SuperBuilder"/>
+    <fullyQualifiedTypeName name="dam2.pruebalombok.AlumnoRepetidor"/>
+    <fullyQualifiedTypeName name="lombok.var"/>
+    <fullyQualifiedTypeName name="java.util.function.Consumer"/>
+    <fullyQualifiedTypeName name="java.util.function.Function"/>
+    <fullyQualifiedTypeName name="java.util.function.Supplier"/>
+    <fullyQualifiedTypeName name="java.util.function.Predicate"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.function.BiFunction"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.stream.Stream"/>
+</qualifiedTypeNameHistroy>

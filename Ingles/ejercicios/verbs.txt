@@ -1,0 +1,16 @@
+	VERBS		-s/-es		-ing		-ed/2nd column
+----------------------------------------------------------------------------
+	FORGET		forgets		forgetting	forgot
+	DEVELOP		develops	developing	developed
+	BEGIN		begins		beggining	began
+	WORRY		worries		worrying	worried
+	MISS		misses		missing		missed
+	STAY		stays		staying		stayed
+	FIX		fixes		fixing		fixed
+	SWIM		swims		swimming	swam
+	STOP		stops		stopping	stopped
+	TRAVEL		travels		traveling	traveled
+	RIDE		rides		riding		rode
+
+
+	IF A WORD HAS Cons Voc Cons and TWO SYLLABELS its ACUTE

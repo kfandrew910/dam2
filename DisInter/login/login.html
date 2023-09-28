@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ForoCoches</title>
+    <script src="./js/verificar.js"></script>
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <p>Usuario</p>
+        <p id="userName"></p>
+        <script>showUsername()</script>
+    </div>
+    <form>
+        <div class="form">
+            <input type="radio" id="3doors" name="doors" value="3"/>
+            <label for="3doors">3 puertas</label></br>
+            <input type="radio" id="5doors" name="doors" value="5"/>
+            <label for="5doors">5 puertas</label></br>
+        </div>
+        <div class="form">
+            <input type="radio" id="gasolina" name="combustible" value="g"/>
+            <label>Gasolina</label></br>
+            <input type="radio" id="diesel" name="combustible" value="d"/>
+            <label>Diesel</label></br>
+        </div>
+        <input type="button" onclick="precio()" value="verificar"/>
+        <p id="resultado"></p><br/>
+        <img src="" id = "coche"/>
+    </form>
+</body>
+</html>

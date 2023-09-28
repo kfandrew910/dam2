@@ -1,0 +1,408 @@
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cursos de Mario Santos</title>
+    <link rel="apple-touch-icon" href="Logo.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Kurale&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="icon" href="img/Logo.png" />
+  </head>
+  <body>
+    <nav class="navbar sticky-top navbar-expand-xxl bg-dark">
+      <div class="container">
+        <div class="m-2">
+            <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+            <i class="bi bi-list fs-5"></i>
+            </a>
+        </div>
+        <a class="navbar-brand" href="index.html">
+          <img src="img/LogoVillablancaBlanco.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top" />
+          Desarrollo de Interfaces
+        </a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-xxl-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Desarrollo de interfaces
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">JavaScript</a></li>
+                <li><a class="dropdown-item" href="#">Bootstrap</a></li>
+                <li><a class="dropdown-item" href="#">Electron</a></li>
+                <li><a class="dropdown-item" href="#">Prácticas Propuestas</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="offcanvas offcanvas-start bg-gradient-violet-blue" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header text-white">
+        <img src="img/JavaScript.png" width="60">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">JavaScript</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body text-white">
+        <div class="fs-5">
+          Selecciona el tema a <b style="color: blue">estudiar/repasar</b> de la lista.
+        </div>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button bg-gradient-violet-blue text-white fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Introducción
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show bg-gradient-violet-blue text-white" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                    <div class="list-group">
+                      <a href="di.html#Introduccion" class="list-group-item list-group-item-action">Introducción</a>
+                      <a href="di.html#PrimerCodigo" class="list-group-item list-group-item-action">Primer Código</a>
+                      <a href="di2.html#Comentarios" class="list-group-item list-group-item-action">Comentarios</a>
+                      <a href="di2.html#caracterFinalizador" class="list-group-item list-group-item-action">Carácter Finalizador</a>
+                    </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-gradient-violet-blue text-white fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Variables
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body bg-gradient-violet-blue text-white">
+                <div class="list-group">
+                    <a href="di3.html#variables" class="list-group-item list-group-item-action">Variables</a>
+                    <a href="di3.html#operadorAsignacion" class="list-group-item list-group-item-action">Operador de Asignación</a>
+                    <a href="di3.html#tipoBooleano" class="list-group-item list-group-item-action">Tipo Booleano</a>
+                    <a href="di3.html#tipoNumerico" class="list-group-item list-group-item-action">Tipo Numércio</a>
+                    <a href="di3.html#tipoTexto" class="list-group-item list-group-item-action">Tipo Texto</a>
+                    <a href="di3.html#conversionImpTipos" class="list-group-item list-group-item-action">Conversión implícita de Tipos</a>
+                    <a href="di3.html#conversionExpTipos" class="list-group-item list-group-item-action">Conversión explícita de Tipos</a>
+                    <a href="di3.html#indefinidoYNull" class="list-group-item list-group-item-action">Valor Indefinido y Null</a>
+                    <a href="di3.html#ventanasModales" class="list-group-item list-group-item-action">Ventanas Modales</a>
+                    <a href="di3.html#varLet" class="list-group-item list-group-item-action">Declaración de variables Var y Let</a>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Estructuras de control de flujo
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main class="pt-5 bg-gradient-violet-blue text-white">
+      <div class="container align-items-center fs-3">
+        <section class="row">
+          <div class="col-sm-12 col-lg-3 d-flex">
+            <img class="foto img-fluid" src="img/JavaScript.png" alt="JavaScript" />
+          </div>
+          <div class="col-sm-12 col-lg-9 d-flex align-items-center fs-1">
+             C.F.G.S. Desarrollo de Aplicaciones Multiplataforma
+          </div>
+        </section>
+        <section id="variables">
+          <div class="fs-1 mt-3 text-decoration-underline">
+            Variables
+          </div>
+          <div class="mt-2 p-5 text-break text-wrap">
+            Como hemos estudiado en primero, una variable es un espacio de memoria RAM al que le asignamos un nombre y en el que guardamos un valor que puede ser alterado a lo largo de la ejecución de nuestro programa.<br>
+            Estas variables pueden ser inicializadas en la declaración o posteriormente. <br> Para declarar una variable, utilizamos la palabra <b class="text-warning fs-1">var</b>
+          </div>
+        </section>
+        <section class="container">
+          <div class="row justify-content-evenly">
+            <div class="col-8">
+              <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/Variables.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="operadorAsignacion">
+          <div class="fs-1 mt-3 text-decoration-underline">
+            El Operador de asignación.
+          </div>
+          <div class="mt-2 p-5 text-break text-wrap">
+            <p>Para asignar un valor a una variable al inicializarla o con posteriordad, debemos utilizar el operador de asignación <b class="fs-1 text-warning">=</b> como podemos observar en la imagen anterior.
+                <div class="bg-dark text-danger">
+                    Además del operador <b class="fs-1 text-warning">=</b>, también existen <b class="fs-1 text-warning">+=</b> y <b class="fs-1 text-warning">-=</b>
+                </div>
+            </p>
+            <div id="carouselExampleFade" class="carousel slide carousel-fade">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/AsignacionMas.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/AsignacionMenos.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </section>
+        <section id="tipoBooleano">
+            <div class="fs-1 mt-3 text-decoration-underline">
+              Tipo Booleano.
+            </div>
+            <div class="mt-2 p-5 text-break text-wrap">
+              <p>Este tipo de dato únicamente puede tomar dos tipos de valores:
+                <ul>
+                    <li>Verdadero</li>
+                    <li>Falso</li>
+                </ul>
+              </p>
+              <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/TipoBooleano.png" class="d-block w-100" alt="...">
+                  </div>
+              </div>
+            </div>
+        </section>
+        <section id="tipoNumerico">
+            <div class="fs-1 mt-3 text-decoration-underline">
+              Tipo Numérico.
+            </div>
+            <div class="mt-2 p-5 text-break text-wrap">
+                <p>
+                    Este tipo de dato puede contener valores numéricos reales y enteros. Las operaciones que podemos hacer sobre ellos son:
+                    <ul>
+                        <li>Suma +</li>
+                        <li>Resta -</li>
+                        <li>Multiplicación *</li>
+                        <li>División /</li>
+                        <li>En valores enteros (sin decimales) nos encontramos tres operaciones más:</li>
+                        <ul>
+                            <li>Resto de una división %</li>
+                            <li>Aumentar en uno el valor del número ++</li>
+                            <li>Disminuir en uno el valor del número --</li>
+                        </ul>
+                        
+                    </ul>
+                    <div class="bg-dark text-danger">
+                        Los  operadores <b class="text-warning">++</b> y <b class="text-warning">--</b> actúan de manera diferente cuando se colocan antes o después de la variable.
+                        <ul>
+                            <li>Cuando las ponemos <b class="text-warning">delante</b> de la variable incrementa/decrementa el valor de la variable antes de evaluar ninguna otra variable.</li>
+                            <li>Cuando las ponemos <b class="text-warning">detrás</b> de la variable se incrementa/decrementa el valor de la variable después de haber superado el ;</li>
+                        </ul>
+                    </div>
+                </p>
+              <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/OperadoresNumericos.png" class="d-block w-100" alt="...">
+                  </div>
+              </div>
+            </div>
+        </section>
+        <section id="tipoTexto">
+            <div class="fs-1 mt-3 text-decoration-underline">
+              Tipo Texto.
+            </div>
+            <div class="mt-2 p-5 text-break text-wrap">
+                <p>
+                    Este tipo de variable va a guardar texto.
+                    <ul>
+                        <li>Para guardar una cadena de texto podemos utilizar las comillas dobles " o las comillas simples '</li>
+                        <li>Con las comillas dobles o simples únicamente podemos insertar una línea de texto, si queremos insertar más de una línea, utilizamos el acento invertido `. 
+                        <div class="bg-dark text-danger">
+                        Ojo!!!, eso no quiere decir que te vayan a aparecer varias líneas en tu página web.
+                        </div>
+                        </li>
+                        <li>La única operación que podemos realizar con las cadenas de texto es la <b class="text-warning">concatenación</b> que la realizamos a través del operador <b class="text-warning">+</b>.
+                        </li>
+                        
+                    </ul>
+                </p>
+              <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/variableTexto.png" class="d-block w-100" alt="...">
+                  </div>
+              </div>
+            </div>
+        </section>
+        <section id="conversionImpTipos">
+            <div class="fs-1 mt-3 text-decoration-underline">
+              Conversión Implícita de Tipos
+            </div>
+            <div class="mt-2 p-5 text-break text-wrap">
+                <p>
+                    Cuando trabajamos con variables de distinto tipo, debemos entender que JavaScript funcionará de una forma o de otra atendiendo a las siguientes situaciones:
+                    <ul>
+                        <li>Si tenemos una variable de tipo texto y otra numérica y las sumamos, JavaScript convierte ese número a cadena de texto y lo concatena a la variable de texto.</li>
+                        <li>Si son dos cadenas de texto que representan un número e intentamos concatenarlas con el operador *, lo que nos devolverá es la multiplicación de esos dos valores, aunque sean cadenas de texto. Esto es una interpretación que hace JavaScript</li>
+                        <li>Si es una cadena de texto que no es un número y una cadena de texto que representa un número e intentamos utilizar el operador *, nos devolverá el código de error <b class="text-warning">NaN</b> (Not a Number) indicando que no se puede realizar la operación.</li>
+
+                    </ul>
+                </p>
+              <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/conversionImplicitaTipos.png" class="d-block w-100" alt="...">
+                  </div>
+              </div>
+            </div>
+        </section>
+        <section id="conversionExpTipos">
+            <div class="fs-1 mt-3 text-decoration-underline">
+              Conversión Explícita de Tipos
+            </div>
+            <div class="mt-2 p-5 text-break text-wrap">
+                <p>
+                    En determinadas situaciones nos puede interesar hacer una conversión de un tipo de texto a un numérico de forma explicita. JavaScript nos ofrece dos funciones para poder realizarlo.
+                    <ul>
+                        <li><b class="text-warning">parseInt(string):</b> Convierte una cadena de texto en un número entero, es decir, sin decimales.</il>
+                          <li><b class="text-warning">parseFloat(string):</b> Convierte una cadena de texto en un número real, es decir, con decimales.</il>
+                    </ul>
+                </p>
+              <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/conversionExplicitaTipos.png" class="d-block w-100" alt="...">
+                  </div>
+              </div>
+            </div>
+        </section>
+        <section id="indefinidoYNull">
+          <div class="fs-1 mt-3 text-decoration-underline">
+            Undefined y Null
+          </div>
+          <div class="mt-2 p-5 text-break text-wrap">
+              <p>
+                  Hay dos conceptos sobre las variables que es importante que tengamos en cuenta:
+                  <ul>
+                      <li><b class="text-warning">Undifined:</b> La variable está declarada pero no se le ha asignado ningún valor.</il>
+                        <li><b class="text-warning">Null:</b> Cuando asignamos este valor a una variable, lo que hacemos es borrar ese espacio reservado de la memoria RAM, de tal forma que no dejamos basura que nos puede dar problemas mas adelante.</il>
+                  </ul>
+              </p>
+            <div id="carouselExampleFade" class="carousel slide carousel-fade">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/UndefinedNull.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+          </div>
+        </section>
+        <section id="ventanasModales">
+          <div class="fs-1 mt-3 text-decoration-underline">
+            Ventanas Modales.
+          </div>
+          <div class="mt-2 p-5 text-break text-wrap">
+              <p>
+                  JavaScript nos proporciona ventanas modales para visualizar y/o recoger datos.
+                  <ul>
+                      <li><b class="text-warning">alert(mensaje):</b> Le muestra al usuario un mensaje.</il>
+                        <li><b class="text-warning">prompt(mensaje):</b> Le pedimos un dato al usuario con el que haremos alguna operación. Este dato siempre se va a guardar como un tipo string. Como observamos en la imagen, el prompt siempre se le asigna a una variable que es la que va a guardar el valor introducido por el usuario.</il>
+                  </ul>
+              </p>
+            <div id="carouselExampleFade" class="carousel slide carousel-fade">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/VentanasModales.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+          </div>
+        </section>
+        <section id="varLet">
+          <div class="fs-1 mt-3 text-decoration-underline">
+            Declaración de variables: Var y Let.
+          </div>
+          <div class="mt-2 p-5 text-break text-wrap">
+              <p>
+                  Ya hemos visto que para declarar una variable utilizamos la palabra reservada <b class="text-warning">var</b>. Nos podemos encontrar con variables que vienen definidas por la palabra reservada <b class="text-warning">let</b>. La diferenca es
+                  <div class="bg-dark text-danger">
+                    Las variables definidas con <b class="text-warning">let</b> se destruyen fuera del bloque en que fueron definidas. Un bloque es el espacio entre <b class="text-warning">{</b> y <b class="text-warning">}</b>
+                  </div>
+              </p>
+            <div id="carouselExampleFade" class="carousel slide carousel-fade">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/VarLet.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+          </div>
+        </section>
+        <section class="container">
+          <div class="row d-flex justify-content-end me-5">
+            <div class="col-2">
+              <a class="btn btn-primary fs-4" href="di4.html" role="button">
+                <i class="bi bi-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+          <br>
+        </section>
+      </div>
+    </main>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content bg-gradient-violet-blue text-white">
+          <div class="modal-header">
+            <h1 class="modal-title fs-4" id="exampleModalLabel">Agradecimientos</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body fs-5">
+            Gracias al profesor Pedro Lucas por los apuntes aportados.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="bg-dark p-3">
+      <div class="container text-center">
+        <nav class="d-flex justify-content-evenly">
+          <a href="https://badger.com" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <i class="bi bi-emoji-wink fs-4"></i>
+          </a>
+          <a href="https://alarm.com" target="_blank">
+            <i class="bi bi-alarm fs-4"></i>
+          </a>
+          <a href="https://chat.com" target="_blank">
+            <i class="bi bi-chat fs-4"></i>
+          </a>
+        </nav>
+        <small class="text-white">&copy; 2023 I.E.S. Villablanca.</small>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

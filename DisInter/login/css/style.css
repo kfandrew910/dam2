@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body{
+ display: inline-block;   
+ margin: 10px;
+}
+
+form{
+    background-color: blanchedalmond;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    /*display: flex;
+    align-items: center;
+    justify-content: center;*/
+}
+
+.form{
+    float: left;
+    margin-right: 25px;
+}
+
+.cartel{
+    background: white;
+    border: solid black 3px;
+    padding: 5px 30px;
+}
+
+.input{
+    background: white;
+    border: solid black 3px;
+}

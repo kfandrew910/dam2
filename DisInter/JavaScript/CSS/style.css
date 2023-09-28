@@ -1,0 +1,149 @@
+/************** Propiedades Personalizadas **************/
+:root {
+  --first-color: #6f42c1;
+  --first-alpha-color: #4e17b550;
+  --second-color: rgb(20, 25, 45);
+  --second-alpha-color: rgba(194, 41, 236, 0.304);
+  --third-color: rgb(80, 20, 100);
+  --third-alpha-color: rgba(80, 20, 100, 0.75);
+
+  --link-color: rgb(80, 158, 227);
+  --link-alpha-color: rgba(80, 158, 227, 0.75);
+
+  --bg-color: rgb(245, 245, 245);
+  --bg-alpha-color: rgba(245, 245, 245, 0.75);
+}
+
+
+/************** Estilos reseteados *********************/
+a {
+  color: var(--bs-white);
+}
+
+a:hover {
+  color: var(--link-color);
+}
+
+.active{
+  color: var(--bs-white) !important;
+  font-size: 1.1rem !important;
+}
+body {
+  font-family: 'Kurale', serif;
+}
+
+
+
+.dropdown-item{
+  color:#6543a3;
+  transition: all 0.3s ease-out;
+}
+.dropdown-item:hover{
+  color:#5b08f5;
+  background-color: var(--second-alpha-color);
+}
+
+.navbar-brand {
+  color: var(--bs-white);
+  font-size: 1.5rem;
+
+}
+
+.navbar-dark{
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb%28255, 255, 255%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  --bs-navbar-toggler-border-color: rgb(255, 255, 255);
+
+}
+.navbar-toggler:hover{
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb%28255, 255, 255%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  --bs-navbar-toggler-border-color: rgb(255, 255, 255);
+
+}
+
+.navbar-brand:hover {
+  color: var(--bs-white);
+}
+
+.navbar-brand img{
+  width: auto;
+  height: 3rem;
+}
+
+.bg-dark {
+  background: var(--first-color) !important;
+}
+
+.nav-item {
+  
+  transition: all 0.3s ease-out;
+}
+
+.nav-item:hover {
+  background-color: var(--first-alpha-color);
+}
+
+.nav-link {
+  margin-left: 1rem;
+  color: var(--bs-white);
+  font-size:1.1rem;
+}
+.nav-link:hover {
+  color: var(--bs-white);
+}
+
+.offcanvas-title {
+  font-size: 2rem;
+}
+
+.offcanvas, .offcanvas-xxl, .offcanvas-xl, .offcanvas-lg, .offcanvas-md, .offcanvas-sm {
+  --bs-offcanvas-title-line-height: 20px;
+}
+
+
+  
+/************** Mis estilos ****************************/
+
+.bg-gradient-violet-blue {
+  background-color: var(--first-color);
+  background-image: linear-gradient(
+    180deg,
+    var(--first-color),
+    var(--bg-alpha-color) 100%
+  );
+  
+}
+
+.foto {
+  box-shadow: 0.5rem 0.5rem 3rem #5b08f5;
+  border-radius: 12px;
+  width: 25rem;
+  height: auto;
+}
+
+
+
+
+/* // X-Small devices (portrait phones, less than 576px)
+    // No media query for `xs` since this is the default in Bootstrap */
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .nav-item:hover {
+    background-color: transparent;
+  }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}

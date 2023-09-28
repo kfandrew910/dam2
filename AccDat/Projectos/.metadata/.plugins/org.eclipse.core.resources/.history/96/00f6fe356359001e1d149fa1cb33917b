@@ -1,0 +1,16 @@
+package dam2.pruebalombok;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+        Alumno a;
+        
+        a = Alumno.builder().nia("001").nota(0).nombre("1").build();
+    }
+}

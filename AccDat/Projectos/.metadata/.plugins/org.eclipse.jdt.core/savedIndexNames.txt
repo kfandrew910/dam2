@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+/media/usertar/Anlena/2do/AccDat/Projectos/.metadata/.plugins/org.eclipse.jdt.core
+3622242839.index
+2367091235.index
+1865797976.index

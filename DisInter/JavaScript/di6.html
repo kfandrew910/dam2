@@ -1,0 +1,278 @@
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cursos de Mario Santos</title>
+    <link rel="apple-touch-icon" href="Logo.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Kurale&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="icon" href="img/Logo.png" />
+  </head>
+  <body>
+    <nav class="navbar sticky-top navbar-expand-xxl bg-dark">
+      <div class="container">
+        <div class="m-2">
+            <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+            <i class="bi bi-list fs-5"></i>
+            </a>
+        </div>
+        <a class="navbar-brand" href="index.html">
+          <img src="img/LogoVillablancaBlanco.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top" />
+          Desarrollo de Interfaces
+        </a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-xxl-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Desarrollo de interfaces
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">JavaScript</a></li>
+                <li><a class="dropdown-item" href="#">Bootstrap</a></li>
+                <li><a class="dropdown-item" href="#">Electron</a></li>
+                <li><a class="dropdown-item" href="#">Prácticas Propuestas</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="offcanvas offcanvas-start bg-gradient-violet-blue" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header text-white">
+        <img src="img/JavaScript.png" width="60">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">JavaScript</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body text-white">
+        <div class="fs-5">
+          Selecciona el tema a <b style="color: blue">estudiar/repasar</b> de la lista.
+        </div>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button bg-gradient-violet-blue text-white fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Introducción
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show bg-gradient-violet-blue text-white" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                    <div class="list-group">
+                      <a href="di.html#Introduccion" class="list-group-item list-group-item-action">Introducción</a>
+                      <a href="di.html#PrimerCodigo" class="list-group-item list-group-item-action">Primer Código</a>
+                      <a href="di2.html#Comentarios" class="list-group-item list-group-item-action">Comentarios</a>
+                      <a href="di2.html#caracterFinalizador" class="list-group-item list-group-item-action">Carácter Finalizador</a>
+                    </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item bg-gradient-violet-blue">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-gradient-violet-blue text-white fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Variables
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body bg-gradient-violet-blue text-white">
+                <div class="list-group">
+                    <a href="di3.html#variables" class="list-group-item list-group-item-action">Variables</a>
+                    <a href="di3.html#operadorAsignacion" class="list-group-item list-group-item-action">Operador de Asignación</a>
+                    <a href="di3.html#tipoBooleano" class="list-group-item list-group-item-action">Tipo Booleano</a>
+                    <a href="di3.html#tipoNumerico" class="list-group-item list-group-item-action">Tipo Numércio</a>
+                    <a href="di3.html#tipoTexto" class="list-group-item list-group-item-action">Tipo Texto</a>
+                    <a href="di3.html#conversionImpTipos" class="list-group-item list-group-item-action">Conversión implícita de Tipos</a>
+                    <a href="di3.html#conversionExpTipos" class="list-group-item list-group-item-action">Conversión explícita de Tipos</a>
+                    <a href="di3.html#indefinidoYNull" class="list-group-item list-group-item-action">Valor Indefinido y Null</a>
+                    <a href="di3.html#ventanasModales" class="list-group-item list-group-item-action">Ventanas Modales</a>
+                    <a href="di3.html#varLet" class="list-group-item list-group-item-action">Declaración de variables Var y Let</a>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item bg-gradient-violet-blue">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-gradient-violet-blue text-white fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEstructuras" aria-expanded="false" aria-controls="collapseTwo">
+                Estructuras de control de flujo
+              </button>
+            </h2>
+            <div id="collapseEstructuras" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body bg-gradient-violet-blue text-white">
+                <div class="list-group">
+                    <a href="di4.html#estructuraIF" class="list-group-item list-group-item-action">Estructura If</a>
+                    <a href="di4.html#estructuraIfElse" class="list-group-item list-group-item-action">Estructura If-Else</a>
+                    <a href="di4.html#ifAnidado" class="list-group-item list-group-item-action">If anidado - Else If</a>
+                    <a href="di4.html#operadoresLogicos" class="list-group-item list-group-item-action">Operadores Lógicos - And y Or</a>
+                    <a href="di4.html#bucleWhile" class="list-group-item list-group-item-action">Bucle While</a>
+                    <a href="di4.html#bucleFor" class="list-group-item list-group-item-action">Bucle For</a>
+                    <a href="di4.html#bucleDoWhile" class="list-group-item list-group-item-action">Bucle Do While</a>
+                    <a href="di4.html#switchCase" class="list-group-item list-group-item-action">Switch Case</a>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item bg-gradient-violet-blue">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-gradient-violet-blue text-white fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFunciones" aria-expanded="false" aria-controls="collapseTwo">
+                Funciones
+              </button>
+            </h2>
+            <div id="collapseFunciones" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body bg-gradient-violet-blue text-white">
+                <div class="list-group">
+                    <a href="di5.html#funciones" class="list-group-item list-group-item-action">Funciones</a>
+                    <a href="di5.html#onclickgetElementById" class="list-group-item list-group-item-action">onclick() y document.GetElementById()</a>
+                    <a href="di5.html#funcionesParametros" class="list-group-item list-group-item-action">Return</a>
+                    <a href="di5.html#visibilidadVariables" class="list-group-item list-group-item-action">Visibilidad de las variables</a>
+                    <a href="di5.html#funcionesComoVariables" class="list-group-item list-group-item-action">Funciones como variables</a>
+                    <a href="di5.html#verificarFormularios" class="list-group-item list-group-item-action">Verificación de formularios</a>
+                    <a href="di5.html#annadirQuitarClasesDOM" class="list-group-item list-group-item-action">Añadir o Quitar clases de un elemento DOM</a>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item bg-gradient-violet-blue">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-gradient-violet-blue text-white fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseObjetos" aria-expanded="false" aria-controls="collapseTwo">
+                Objetos
+              </button>
+            </h2>
+            <div id="collapseObjetos" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body bg-gradient-violet-blue text-white">
+                <div class="list-group">
+                    <a href="di6.html#objetos" class="list-group-item list-group-item-action">Objetos</a>
+                    <a href="di6.html#definirObjetos" class="list-group-item list-group-item-action">Definiendo objetos a partir de funciones.</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main class="pt-5 bg-gradient-violet-blue text-white">
+      <div class="container align-items-center fs-3">
+        <section class="row">
+          <div class="col-sm-12 col-lg-3 d-flex">
+            <img class="foto img-fluid" src="img/JavaScript.png" alt="JavaScript" />
+          </div>
+          <div class="col-sm-12 col-lg-9 d-flex align-items-center fs-1">
+             C.F.G.S. Desarrollo de Aplicaciones Multiplataforma
+          </div>
+        </section>
+        <section id="objetos">
+          <div class="fs-1 mt-3 text-decoration-underline">
+            Objetos
+          </div>
+          <p>
+          <div class="mt-2 p-5 text-break text-wrap">
+            Un objeto será como una caja en la que vamos a poder almacenar otras cajas. Es decir, tendremos una variable y dentro de esta variable se podrán almacenar más variables o funciones. Por ejemplo, se ha estado usando la función "document.write()". Lo que realmente se ha estado haciendo es del objeto document, usar la variable write que almacena una función. El operador "." sirve para obtener los contenidos de un objeto.
+          </div>
+          </p>
+        </section>
+        <section class="container">
+          <div class="row justify-content-evenly">
+            <div class="col-8">
+              <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/objetoTipo1.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/objetosTipo2.png" class="d-block w-100" alt="...">
+                  </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              
+            </div>
+          </div>
+        </section>
+        <section id="definirObjetos">
+          <div class="fs-1 mt-3 text-decoration-underline">
+            Definiendo objetos a partir de funciones.
+          </div>
+          <div class="mt-2 p-5 text-break text-wrap">
+            <p>Hay varias formas de definir un objeto en Javascript. Lo más común es usar una función. La palabra clave <b class="text-warning">this</b> se referirá al objeto que estamos creando o manejando.
+            Como se puede ver dentro de la función <b class="text-warning">Alumno</b> se hacen varias referencias a <b class="text-warning">this</b> que es el objeto que se está creando.
+            A las variables qeu se definen dentro de un ojeto se las llama <b class="text-warning">atributos.</b> A las funciones que se definen dentro de un objeto se les llama <b class="text-warning">métodos.</b>
+            </p>
+            <div id="carouselExampleFade" class="carousel slide carousel-fade">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/objetosFunciones.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </section>
+        
+        <section class="container">
+          <div class="row d-flex justify-content-end me-5">
+            <div class="col-2">
+              <a class="btn btn-primary fs-4" href="di6.html" role="button">
+                <i class="bi bi-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+          <br>
+        </section>
+      </div>
+    </main>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content bg-gradient-violet-blue text-white">
+          <div class="modal-header">
+            <h1 class="modal-title fs-4" id="exampleModalLabel">Agradecimientos</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body fs-5">
+            Gracias al profesor Pedro Lucas por los apuntes aportados.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="bg-dark p-3">
+      <div class="container text-center">
+        <nav class="d-flex justify-content-evenly">
+          <a href="https://badger.com" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <i class="bi bi-emoji-wink fs-4"></i>
+          </a>
+          <a href="https://alarm.com" target="_blank">
+            <i class="bi bi-alarm fs-4"></i>
+          </a>
+          <a href="https://chat.com" target="_blank">
+            <i class="bi bi-chat fs-4"></i>
+          </a>
+        </nav>
+        <small class="text-white">&copy; 2023 I.E.S. Villablanca.</small>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

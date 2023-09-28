@@ -1,0 +1,24 @@
+package dam2.pruebalombok;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+        Alumno a, a2;
+        Grupo g;
+        
+        a = Alumno.builder().nia("001").nota(0).nombre("1").build();
+        a2 = Alumno.builder().nia("002").nota(0).nombre("2").build();
+        
+        System.out.println(a);
+        
+        g = Grupo.builder().nombre("DAM2").tutor("Mario").alumno(a).alumno(a2).build();
+        
+        System.out.println(g);
+    }
+}

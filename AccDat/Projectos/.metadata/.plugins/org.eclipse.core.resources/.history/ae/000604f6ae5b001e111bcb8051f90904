@@ -1,0 +1,5 @@
+package dam2.pruebalombok;
+
+public class AlumnoRepetidor extends Alumno {
+
+}

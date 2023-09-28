@@ -1,0 +1,22 @@
+package optional;
+
+import java.util.ArrayList;
+import java.util.function.Supplier;
+
+import daw.com.Teclado;
+
+public class LeerAlumnos implements Supplier<ArrayList<Alumno>> {
+
+	@Override
+	public ArrayList<Alumno> get() {
+		// TODO Auto-generated method stub
+		ArrayList <Alumno> as = new ArrayList<>();
+		Optional <Alumno> a;
+		do {
+			a = new LeerAlumno();
+			as.add(new LeerAlumno());
+		}while(Teclado.leerString("Desea continuar?(S/N) ").equalsIgnoreCase("s"));
+		return as;
+	}
+
+}

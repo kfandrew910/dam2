@@ -1,0 +1,32 @@
+package dam2.pruebalombok;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+        Alumno a, a2;
+        Grupo g;
+        Alumno ar;
+        
+        a = Alumno.builder().nia("001").nota(0).nombre("1").build();
+        a2 = Alumno.builder().nia("002").nota(0).nombre("2").build();
+        
+        System.out.println(a);
+        
+        g = Grupo.builder().nombre("DAM2").tutor("Mario").alumnos(new ArrayList<Alumno>())/*.alumno(a).alumno(a2)*/.build();
+        
+        g.addAlumno(a2);
+        
+        System.out.println(g);
+        
+        ar = AlumnoRepetidor.builder().nia("003").nombre("3").nota(0).convocatorias(6).build();
+    }
+}

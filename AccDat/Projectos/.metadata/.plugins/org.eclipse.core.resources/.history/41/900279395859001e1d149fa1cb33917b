@@ -1,0 +1,49 @@
+package optional;
+
+import java.util.Optional;
+
+import EjercicioEjemplo.Producto;
+
+public class PruebaOptional {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Optional<Producto> p1, p2;
+		Runnable accion = new AccionMostrarSinDatos();
+		Producto p3;
+		p1 = Optional.empty();
+		p2 = Optional.of(new Producto("001", 1, true));
+		
+		/**Optional:
+		 * Caja vacía que nos dira si tiene un valor o no, y hará
+		 * cosas a partir de allí.
+		 * 
+		 * Con esto nos evitamos las comprobaciones de null en if
+		 * 
+		 * TLDR:
+		 * 	No more if( x != null) thanks to Optional class
+		 */
+		
+		//Acciones con el valor de optional
+		System.out.println("Acciones con Optional");
+//		p1.ifPresentOrElse((p) -> System.out.println(p), () -> System.out.println("No hay dato"));
+		p1.ifPresentOrElse((p) -> System.out.println(p), accion);
+		p2.ifPresent((p) -> System.out.println(p));
+		
+		//Devolver objetos del optional
+		System.out.println("Devolver valores con Optinal");
+		//p3 = p1.get(); 					Esto caca
+		p3 = p1.orElse(new Producto()); //	Esto si
+		System.out.println(p3);
+		p3 = p2.orElse(new Producto());
+		System.out.println(p3);
+		
+		//Uso de Interfaz Supplier (opuesto de Consumer)
+		System.out.println("Supplier");
+		p3 = p1.orElseGet(new CreadorProducto());
+		System.out.println(p3);
+		p3 = p2.orElseGet(new CreadorProducto());
+		System.out.println(p3);
+	}
+
+}

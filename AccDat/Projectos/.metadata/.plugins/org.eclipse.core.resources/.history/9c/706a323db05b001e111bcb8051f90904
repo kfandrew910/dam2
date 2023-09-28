@@ -1,0 +1,11 @@
+package dam2.pruebalombok;
+
+import lombok.var;
+
+public class AppVarVal {
+	var a;
+	var ar;
+	
+	a = new Alumno();
+	ar = new AlumnoRepetidor();
+}

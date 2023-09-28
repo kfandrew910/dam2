@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="cosas raras">
+	<script>
+		var name = prompt();
+		var flag = name;
+		function cambiarImagen()
+		{
+			if(flag == 0)
+			{
+				flag++;
+				document.write('<input type="button" value="cambiar" onclick="cambiarImagen()"/> <br/> <img src="images/0.png"/>');
+			}else if(flag == 1)
+			{
+				flag++;
+				document.write('<input type="button" value="cambiar" onclick="cambiarImagen()"/> <br/> <img src="images/1.png"/>');
+			}else{
+				flag = 0;
+				document.write('<input type="button" value="cambiar" onclick="cambiarImagen()"/> <br/> <img src="images/2.png"/>');
+			}
+			document.close();
+		}
+		function elegirImagen(name)
+		{
+			switch(name){
+				case "0":
+					document.write('<input type="button" value="cambiar" onclick="cambiarImagen()"/> <br/> <img src="images/0.png"/>');
+					break;
+				case "1":
+					document.write('<input type="button" value="cambiar" onclick="cambiarImagen()"/> <br/> <img src="images/1.png"/>');
+					break;
+				case "2":
+					document.write('<input type="button" value="cambiar" onclick="cambiarImagen()"/> <br/> <img src="images/2.png"/>');
+					break;
+			}
+			//document.close();
+		}
+		elegirImagen(name);
+	</script>
+</head>
+<body>
+</body>
+</html>
+

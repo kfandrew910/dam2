@@ -1,0 +1,25 @@
+package optional;
+
+import java.util.Optional;
+
+import EjercicioEjemplo.Producto;
+
+public class PruebaOptional {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Optional<Producto> p1, p2;
+		Runnable accion = new AccionMostrarSinDatos();
+		Producto p3;
+		p1 = Optional.empty();
+		p2 = Optional.of(new Producto("001", 1, true));
+		
+//		p1.ifPresentOrElse((p) -> System.out.println(p), () -> System.out.println("No hay dato"));
+		p1.ifPresentOrElse((p) -> System.out.println(p), accion);
+		p2.ifPresent((p) -> System.out.println(p));
+		
+		//p3 = p1.get(); Esto caca
+		p3 = p1.orElse(new Producto()); //Esto si
+	}
+
+}

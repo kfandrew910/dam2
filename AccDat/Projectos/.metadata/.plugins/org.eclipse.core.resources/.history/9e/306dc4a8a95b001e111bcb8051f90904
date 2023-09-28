@@ -1,0 +1,9 @@
+package dam2.pruebalombok;
+
+import java.util.List;
+
+public class Grupo {
+	private String nombre;
+	private String tutor;
+	private List<Alumno> alumnos;
+}

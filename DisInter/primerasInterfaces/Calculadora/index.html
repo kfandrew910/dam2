@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <script src="./js/calculadora.js"></script>
+    <link href="./css/calculadora.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="all-container">
+        <div id="title">Calculanator</div>
+        <!-- Pantalla calculadora -->
+        <div>
+            <div id="screen"></div>
+        </div>
+        <!-- Cuerpo calculadora -->
+        <div class="float-container">
+            <!-- Numeros -->
+            <div class="float-child" id="numbers">
+                <table id="numeros">
+                    <tr>
+                        <td>
+                            <input type="button" id="b1" value="1" onclick="insert(1)" />
+                        </td>
+                        <td>
+                            <input type="button" id="b2" value="2" onclick="insert(2)" />
+                        </td>
+                        <td>
+                            <input type="button" id="b3" value="3" onclick="insert(3)" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="button" id="b4" value="4" onclick="insert(4)" />
+                        </td>
+                        <td>
+                            <input type="button" id="b5" value="5" onclick="insert(5)" />
+                        </td>
+                        <td>
+                            <input type="button" id="b6" value="6" onclick="insert(6)" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="button" id="b7" value="7" onclick="insert(7)" />
+                        </td>
+                        <td>
+                            <input type="button" id="b8" value="8" onclick="insert(8)" />
+                        </td>
+                        <td>
+                            <input type="button" id="b9" value="9" onclick="insert(9)" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="button" id="bLeftPar" value="(" onclick="insert(`(`)" />
+                        </td>
+                        <td>
+                            <input type="button" id="b0" value="0" onclick="insert(0)" />
+                        </td>
+                        <td>
+                            <input type="button" id="bRightPar" value=")" onclick="insert(')')" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <!-- Operandos -->
+            <div class="float-child" id="operations">
+                <table id="operandos">
+                    <tr>
+                        <td>
+                            <input type="button" id="plus" value="+" onclick="insert('+')" />
+                        </td>
+                        <td>
+                            <input type="button" id="minus" value="-" onclick="insert('-')" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="button" id="multiplication" value="x" onclick="insert('x')" />
+                        </td>
+                        <td>
+                            <input type="button" id="division" value="/" onclick="insert('/')" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="button" id="equals" value="=" onclick="resolve()" />
+                        </td>
+                        <td>
+                            <input type="button" id="equals" value="C" onclick="reset()" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    
+
+</body>
+
+</html>

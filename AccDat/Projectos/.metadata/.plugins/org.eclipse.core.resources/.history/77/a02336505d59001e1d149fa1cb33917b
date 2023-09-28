@@ -1,0 +1,7 @@
+package optional;
+
+import java.util.function.Supplier;
+
+public class LeerAlumnos implements Supplier<ArrayList<Alumno>> {
+
+}

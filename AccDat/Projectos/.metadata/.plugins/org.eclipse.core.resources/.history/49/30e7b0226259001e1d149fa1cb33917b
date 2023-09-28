@@ -1,0 +1,22 @@
+package dam2.pruebalombok;
+
+import java.time.LocalDate;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.Setter;
+
+@AllArgsConstructor
+@Data
+@EqualsAndHashCode(onlyExplicitlyIncluded = true)
+
+public class Alumno {
+	@EqualsAndHashCode.Include
+	private String nia;
+	
+	private String nombre;
+	private LocalDate fecha;
+	private float nota;
+
+}

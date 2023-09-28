@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="cosas raras">
+	<script>
+		var flag = 0;
+		function cambiarImagen()
+		{
+			if(flag == 0)
+			{
+				flag++;
+				document.write('<img src="images/0.png"/> <input type="button" value="cambiar" onclick="cambiarImagen()"/>');
+			}else
+			{
+				flag--;
+				document.write('<img src="images/1.png"/> <input type="button" value="cambiar" onclick="cambiarImagen()"/>');
+			}
+			document.close();
+		}
+	</script>
+</head>
+<body>
+	<input type="button" value="cambiar" onclick="cambiarImagen()"/>
+	<br/>
+</body>
+</html>
+

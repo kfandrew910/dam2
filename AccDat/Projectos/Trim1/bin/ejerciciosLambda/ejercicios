@@ -1,0 +1,16 @@
+Indicar cuál de las siguientes expresiones lambda no son válidas
+
+    () -> {}							//V RUNNABLE
+    () -> "Raoul"						//V SUPPLIER
+    () -> {return "Mario";}				//V SUPPLIER
+    (Integer i) -> return "Alan" + i;	//N	FUNCTION falta bloque
+    (String s) -> {"Iron Man";}			//N FUNCTION falta return entre llaves
+
+Indicar qué significan las siguientes expresiones lambda y escribir su signatura
+
+    (List<String> list) -> list.isEmpty() 								//V PREDICATE	
+    () -> new Apple(10)													//V SUPPLIER
+    (Apple a) -> {System.out.println(a.getWeight());}					//V CONSUMER
+    (String s) -> s.length()											//V FUNCTION
+    (int a, int b) -> a * b												//V BIFUNCTION
+    (Apple a1, Apple a2) -> a1.getWeight().compareTo(a2.getWeight())	//V COMPARATOR

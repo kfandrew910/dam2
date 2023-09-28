@@ -1,0 +1,15 @@
+package dam2.pruebalombok;
+
+import java.time.LocalDate;
+
+import lombok.Data;
+
+@Data
+
+public class Alumno {
+	private String nia;
+	private String nombre;
+	private LocalDate fecha;
+	private float nota;
+
+}

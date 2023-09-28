@@ -1,0 +1,6 @@
+package dam2.pruebalombok;
+
+public class AppVarVal {
+	var a;
+	AlumnoRepetidor ar;
+}

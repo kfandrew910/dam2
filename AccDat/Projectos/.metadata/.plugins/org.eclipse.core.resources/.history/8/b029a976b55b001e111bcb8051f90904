@@ -1,0 +1,15 @@
+package ejerciciosLambda;
+
+import java.util.function.Consumer;
+import java.util.function.Function;
+
+public class test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Runnable test1 = () -> {};
+		Supplier test2 = () -> "Manuel";
+		
+	}
+
+}

@@ -1,0 +1,7 @@
+package optional;
+
+import java.util.function.Function;
+
+public class SacarReferencia implements Function<Producto, String> {
+
+}
